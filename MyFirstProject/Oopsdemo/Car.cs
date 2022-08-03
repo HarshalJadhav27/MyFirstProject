@@ -5,22 +5,22 @@ using System.Text;
 namespace MyFirstProject.Oopsdemo
 {
     class Car
-    {  
-        public string modelnumber;
-        public string name;
-        public double prize;
+    {
+        public string Modelnumber;
+        public string Name;
+        public double Price;
 
 
         static void Main(string[] args)
         {
-            Car.c = new Car();
+            Car.Audi = new Car();
 
 
-            c.modelnumber = "A154";
-            c.name = "BMW";
-            c.prize = 5000000;
+            Audi.Modelnumber = "A154";
+            Audi.Name = "BMW";
+            Audi.Price = 5000000;
 
-            Console.WriteLine(c.modelnumber+" "+c.name+" "+c.prize);
+            Console.WriteLine(c.modelnumber + " " + c.name + " " + c.prize);
 
 
             Car.c1 = new Car();

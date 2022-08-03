@@ -4,7 +4,9 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
 
-	  <StartupObject>MyFirstProject.Loopingdemo.Countdemo</StartupObject>
+	  <StartupObject>MyFirstProject.Oopsdemo.Addressinfo</StartupObject>
+	  
   </PropertyGroup>
 
 </Project>
+
